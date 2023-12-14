@@ -1,6 +1,6 @@
 import string
 
-string.printable = string.printable.replace("\r", "")
+string.printable = string.printable.replace("\r", "_")
 
 def cesar_ciffer(message, key):
 	if type(key) != int :
