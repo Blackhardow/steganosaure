@@ -1,7 +1,7 @@
 import string
 
 string.printable = string.printable.replace("\r", "_")
-
+#correction du bugg de chifferemet de \r lorsque la cle par 3 
 def cesar_ciffer(message, key):
 	if type(key) != int :
 		print("la clef doit être un entier")
